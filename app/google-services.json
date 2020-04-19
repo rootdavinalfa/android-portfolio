@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "287471440699",
+    "firebase_url": "https://myportfolio-davin.firebaseio.com",
+    "project_id": "myportfolio-davin",
+    "storage_bucket": "myportfolio-davin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287471440699:android:87e85fec0a47a3e5fadd1e",
+        "android_client_info": {
+          "package_name": "com.davin.davin_myportfolio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287471440699-aql746culp9c6hnbf9kejbqlv48nt0s8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfdKwSxJ3gkOCwfo65Ok74ssIvIGIsUoM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287471440699-aql746culp9c6hnbf9kejbqlv48nt0s8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
