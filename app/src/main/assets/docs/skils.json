@@ -1,6 +1,26 @@
 [
   {
-    "name": "",
-    "certified": ""
+    "name": "Android Developer",
+    "certified": "Beginner Certificate from Dicoding"
+  },
+  {
+    "name": "IT Support",
+    "certified": "Certification by Indonesia BNSP"
+  },
+  {
+    "name": "Basic Networking",
+    "certified": "None"
+  },
+  {
+    "name": "Backend Developer",
+    "certified": "None"
+  },
+  {
+    "name": "MongoDB",
+    "certified": "None"
+  },
+  {
+    "name": "Web Developer",
+    "certified": "None"
   }
 ]

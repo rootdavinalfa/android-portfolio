@@ -1,5 +1,10 @@
 [
   {
+    "name": "Email",
+    "url": "mailto:dbasudewa@gmail.com",
+    "img": ""
+  },
+  {
     "name": "Github",
     "url": "https://github.com/rootdavinalfa/",
     "img": ""
@@ -7,6 +12,11 @@
   {
     "name": "Twitter",
     "url": "https://twitter.com/root_davinalfa",
+    "img": ""
+  },
+  {
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/in/davin-alfarizky-putra-basudewa-ba238460/",
     "img": ""
   }
 ]

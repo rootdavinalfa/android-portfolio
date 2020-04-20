@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/eduBackIcon"
+        android:id="@+id/workBackIcon"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_marginStart="20dp"
@@ -26,17 +26,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="35dp"
         android:fontFamily="@font/krona_one"
-        android:text="Education"
+        android:text="Works Experience"
         android:textColor="@color/primaryTextColor"
-        android:textSize="30sp"
+        android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/eduBackIcon"
+        app:layout_constraintStart_toEndOf="@+id/workBackIcon"
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/eduHeader"
+        android:id="@+id/workHeader"
         android:layout_width="match_parent"
         android:layout_height="180dp"
         android:layout_margin="10dp"
@@ -50,21 +50,19 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="@font/fjalla_one"
-            android:text="This is education section that i've attended in my life"
+            android:text="This is work experience section that i've do in my life"
             android:textAlignment="center"
             android:textColor="@color/secondaryTextColor"
             android:textSize="24sp" />
-
     </com.google.android.material.card.MaterialCardView>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvEducation"
+        android:id="@+id/rvWork"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/eduHeader"
-        tools:listitem="@layout/list_education" />
-
+        app:layout_constraintTop_toBottomOf="@+id/workHeader"
+        tools:listitem="@layout/list_works" />
 </androidx.constraintlayout.widget.ConstraintLayout>

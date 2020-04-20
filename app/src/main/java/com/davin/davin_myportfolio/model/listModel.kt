@@ -7,3 +7,11 @@ data class EducationModel(
     val years: String,
     val img: String
 )
+
+data class WorkModel(
+    val company: String,
+    val duration: String,
+    val role: String,
+    val status: String,
+    val years: String
+)

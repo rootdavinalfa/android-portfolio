@@ -15,10 +15,14 @@ import com.davin.davin_myportfolio.MainActivity
 import com.davin.davin_myportfolio.R
 import com.davin.davin_myportfolio.utils.AssetParser
 import com.google.android.material.card.MaterialCardView
+import kotlinx.android.synthetic.main.home_fragment.view.*
 
 class HomeFragment : BaseFragment() {
     var image: ImageView? = null
     var eduView: MaterialCardView? = null
+    var skillsView: MaterialCardView? = null
+    var worksView: MaterialCardView? = null
+    var snsView: MaterialCardView? = null
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -29,8 +33,11 @@ class HomeFragment : BaseFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        image = view.findViewById(R.id.davinImage)
-        eduView = view.findViewById(R.id.educationView)
+        image = view.davinImage
+        eduView = view.educationView
+        skillsView = view.skillsView
+        worksView = view.worksView
+        snsView = view.snsView
         Glide.with(this)
             .load(AssetParser().getImageAsset(context!!, "image/davin.jpg"))
             .transform(CircleCrop())
@@ -51,6 +58,15 @@ class HomeFragment : BaseFragment() {
         }
         eduView!!.setOnClickListener {
             (context!! as MainActivity).openFragment(EduFragment(), R.id.mainFrame, "EDU")
+        }
+        skillsView!!.setOnClickListener {
+            (context!! as MainActivity).openFragment(SkillsFragment(), R.id.mainFrame, "SKILLS")
+        }
+        worksView!!.setOnClickListener {
+            (context!! as MainActivity).openFragment(WorksFragment(), R.id.mainFrame, "WORKS")
+        }
+        snsView!!.setOnClickListener {
+            (context!! as MainActivity).openFragment(SnsFragment(), R.id.mainFrame, "SNS")
         }
     }
 }

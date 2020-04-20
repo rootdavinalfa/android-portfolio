@@ -1,1 +1,16 @@
-{}
+[
+  {
+    "company": "PT.Krakatau Information Technology",
+    "duration": "3 months",
+    "role": "IT Support",
+    "status": "Internship",
+    "years": "2016"
+  },
+  {
+    "company": "PT.Lima Putra Contrindo",
+    "duration": "4 months",
+    "role": "IT Staff (Programmer and Support)",
+    "status": "Full Time",
+    "years": "2018"
+  }
+]
