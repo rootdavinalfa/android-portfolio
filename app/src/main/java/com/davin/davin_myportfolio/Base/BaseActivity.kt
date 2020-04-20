@@ -21,6 +21,14 @@ open class BaseActivity : AppCompatActivity() {
             .commit()
     }
 
+    protected open fun stackedFragment(fragment: Fragment?, layout: Int, tags: String) {
+        supportFragmentManager
+            .beginTransaction()
+            .replace(layout, fragment!!)
+            .addToBackStack(null)
+            .commit()
+    }
+
     /**
      * changeStatusBar
      * @param activity provide related activity

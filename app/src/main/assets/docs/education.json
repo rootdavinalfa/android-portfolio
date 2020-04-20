@@ -4,13 +4,13 @@
     "level": "Vocational High School",
     "majors": "Computer Network Engineering",
     "years": "2017",
-    "img": ""
+    "img": "image/smk1.jpeg"
   },
   {
     "institute": "Universitas Banten Jaya",
-    "level": "University",
+    "level": "Bachelor Degree",
     "majors": "Information Technology",
     "years": "In Study",
-    "img": ""
+    "img": "image/unbaja.png"
   }
 ]

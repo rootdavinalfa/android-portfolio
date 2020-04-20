@@ -11,6 +11,7 @@ import com.bumptech.glide.load.resource.bitmap.CircleCrop
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.bumptech.glide.request.RequestOptions
 import com.davin.davin_myportfolio.Base.BaseFragment
+import com.davin.davin_myportfolio.MainActivity
 import com.davin.davin_myportfolio.R
 import com.davin.davin_myportfolio.utils.AssetParser
 import com.google.android.material.card.MaterialCardView
@@ -46,7 +47,10 @@ class HomeFragment : BaseFragment() {
     private fun clickInit() {
         image!!.setOnClickListener {
             val popImage = ImagePopFragment()
-            popImage.show(fragmentManager!!, "POP")
+            popImage.show(activity!!.supportFragmentManager, "POP")
+        }
+        eduView!!.setOnClickListener {
+            (context!! as MainActivity).openFragment(EduFragment(), R.id.mainFrame, "EDU")
         }
     }
 }

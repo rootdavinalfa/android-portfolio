@@ -1,6 +1,7 @@
 package com.davin.davin_myportfolio
 
 import android.os.Bundle
+import androidx.fragment.app.Fragment
 import com.davin.davin_myportfolio.Base.BaseActivity
 import com.davin.davin_myportfolio.ui.fragment.HomeFragment
 import com.davin.davin_myportfolio.ui.fragment.ProjectFragment
@@ -34,6 +35,17 @@ class MainActivity : BaseActivity() {
                 }
             }
         }
+    }
 
+    fun openFragment(fragment: Fragment, layout: Int, tags: String) {
+        stackedFragment(fragment, layout, tags)
+    }
+
+    override fun onBackPressed() {
+        if (supportFragmentManager.backStackEntryCount > 0) {
+            supportFragmentManager.popBackStackImmediate()
+        } else {
+            super.onBackPressed()
+        }
     }
 }
