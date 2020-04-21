@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2020.
+ * Davin Alfarizky Putra Basudewa <dbasudewa@gmail.com>
+ * https://dvnlabs.xyz All right reserved
+ * My Portfolio is Personal application that show portfolio for Davin Alfarizky Putra Basudewa
+ */
+
 package com.davin.davin_myportfolio.ui.fragment
 
 import android.graphics.drawable.Drawable
@@ -22,6 +29,7 @@ import com.davin.davin_myportfolio.model.EducationModel
 import com.davin.davin_myportfolio.ui.list.EducationListAdapter
 import com.davin.davin_myportfolio.utils.AssetParser
 import com.google.android.material.card.MaterialCardView
+import jp.wasabeef.glide.transformations.BlurTransformation
 import jp.wasabeef.glide.transformations.ColorFilterTransformation
 import jp.wasabeef.glide.transformations.RoundedCornersTransformation
 import kotlinx.android.synthetic.main.edu_fragment.view.*
@@ -49,7 +57,8 @@ class EduFragment : Fragment() {
         //Glide attach image
         val multi = MultiTransformation(
             ColorFilterTransformation(R.color.blacktrans),
-            RoundedCornersTransformation(10, 0)
+            RoundedCornersTransformation(10, 0),
+            BlurTransformation(5, 3)
         )
         Glide.with(this)
             .load(AssetParser().getImageAsset(context!!, "image/header/education.png"))

@@ -1,8 +1,15 @@
+/*
+ * Copyright (c) 2020.
+ * Davin Alfarizky Putra Basudewa <dbasudewa@gmail.com>
+ * https://dvnlabs.xyz All right reserved
+ * My Portfolio is Personal application that show portfolio for Davin Alfarizky Putra Basudewa
+ */
+
 package com.davin.davin_myportfolio
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import com.davin.davin_myportfolio.Base.BaseActivity
+import com.davin.davin_myportfolio.base.BaseActivity
 import com.davin.davin_myportfolio.ui.fragment.HomeFragment
 import com.davin.davin_myportfolio.ui.fragment.ProjectFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView

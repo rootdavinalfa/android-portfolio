@@ -2,21 +2,21 @@
   {
     "name": "Email",
     "url": "mailto:dbasudewa@gmail.com",
-    "img": ""
+    "img": "image/sns/email.png"
   },
   {
     "name": "Github",
     "url": "https://github.com/rootdavinalfa/",
-    "img": ""
+    "img": "image/sns/github.png"
   },
   {
     "name": "Twitter",
     "url": "https://twitter.com/root_davinalfa",
-    "img": ""
+    "img": "image/sns/twitter.png"
   },
   {
     "name": "LinkedIn",
     "url": "https://www.linkedin.com/in/davin-alfarizky-putra-basudewa-ba238460/",
-    "img": ""
+    "img": "image/sns/linkedin.png"
   }
 ]

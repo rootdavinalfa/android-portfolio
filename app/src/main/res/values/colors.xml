@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020.
+  ~ Davin Alfarizky Putra Basudewa <dbasudewa@gmail.com>
+  ~ https://dvnlabs.xyz All right reserved
+  ~ My Portfolio is Personal application that show portfolio for Davin Alfarizky Putra Basudewa
+  -->
+
 <resources>
     <color name="primaryColor">#1e88e5</color>
     <color name="primaryLightColor">#6ab7ff</color>
@@ -10,7 +17,7 @@
     <color name="secondaryTextColor">#ffffff</color>
     <color name="greenLight">#4CAF50</color>
     <color name="redLight">#E91E63</color>
-    <color name="yellowLight">#FFC107</color>
+    <color name="yellowLight">#FF9800</color>
     <color name="white">#fff</color>
     <color name="blacktrans">#C1000000</color>
 </resources>

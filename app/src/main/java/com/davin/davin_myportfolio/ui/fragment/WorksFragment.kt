@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2020.
+ * Davin Alfarizky Putra Basudewa <dbasudewa@gmail.com>
+ * https://dvnlabs.xyz All right reserved
+ * My Portfolio is Personal application that show portfolio for Davin Alfarizky Putra Basudewa
+ */
+
 package com.davin.davin_myportfolio.ui.fragment
 
 import android.graphics.drawable.Drawable
@@ -15,13 +22,14 @@ import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.bumptech.glide.request.RequestOptions
 import com.bumptech.glide.request.target.CustomTarget
 import com.bumptech.glide.request.transition.Transition
-import com.davin.davin_myportfolio.Base.BaseFragment
 import com.davin.davin_myportfolio.MainActivity
 import com.davin.davin_myportfolio.R
+import com.davin.davin_myportfolio.base.BaseFragment
 import com.davin.davin_myportfolio.model.WorkModel
 import com.davin.davin_myportfolio.ui.list.WorksListAdapter
 import com.davin.davin_myportfolio.utils.AssetParser
 import com.google.android.material.card.MaterialCardView
+import jp.wasabeef.glide.transformations.BlurTransformation
 import jp.wasabeef.glide.transformations.ColorFilterTransformation
 import jp.wasabeef.glide.transformations.RoundedCornersTransformation
 import kotlinx.android.synthetic.main.works_fragment.view.*
@@ -50,7 +58,8 @@ class WorksFragment : BaseFragment() {
         //Glide attach image
         val multi = MultiTransformation(
             ColorFilterTransformation(R.color.blacktrans),
-            RoundedCornersTransformation(10, 0)
+            RoundedCornersTransformation(10, 0),
+            BlurTransformation(5, 3)
         )
         Glide.with(this)
             .load(AssetParser().getImageAsset(context!!, "image/header/works.jpeg"))

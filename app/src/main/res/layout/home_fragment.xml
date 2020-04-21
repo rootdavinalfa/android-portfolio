@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020.
+  ~ Davin Alfarizky Putra Basudewa <dbasudewa@gmail.com>
+  ~ https://dvnlabs.xyz All right reserved
+  ~ My Portfolio is Personal application that show portfolio for Davin Alfarizky Putra Basudewa
+  -->
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -54,7 +61,6 @@
             android:text="Davin Alfarizky Putra Basudewa"
             android:textColor="@color/primaryTextColor"
             android:textSize="30sp"
-            android:textStyle="italic"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/davinImage"
             app:layout_constraintTop_toTopOf="parent" />
@@ -138,7 +144,7 @@
                             android:layout_gravity="center"
                             android:text="Education"
                             android:textColor="@color/secondaryTextColor"
-                            android:textSize="18sp" />
+                            android:textSize="20sp" />
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
 
@@ -173,7 +179,7 @@
                             android:layout_gravity="center"
                             android:text="Work Experience"
                             android:textColor="@color/secondaryTextColor"
-                            android:textSize="18sp" />
+                            android:textSize="20sp" />
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
             </LinearLayout>
@@ -210,7 +216,7 @@
                         android:layout_gravity="center"
                         android:text="Social Media"
                         android:textColor="@color/secondaryTextColor"
-                        android:textSize="18sp" />
+                        android:textSize="20sp" />
                 </com.google.android.material.card.MaterialCardView>
             </LinearLayout>
 
@@ -237,6 +243,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_margin="5dp"
+                        android:tint="@color/secondaryTextColor"
                         android:src="@drawable/ic_skills" />
 
                     <TextView
@@ -244,8 +251,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:text="Skills"
-                        android:textColor="@color/primaryTextColor"
-                        android:textSize="18sp" />
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="20sp" />
                 </com.google.android.material.card.MaterialCardView>
             </LinearLayout>
         </LinearLayout>

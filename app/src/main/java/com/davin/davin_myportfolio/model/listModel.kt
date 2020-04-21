@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2020.
+ * Davin Alfarizky Putra Basudewa <dbasudewa@gmail.com>
+ * https://dvnlabs.xyz All right reserved
+ * My Portfolio is Personal application that show portfolio for Davin Alfarizky Putra Basudewa
+ */
+
 package com.davin.davin_myportfolio.model
 
 data class EducationModel(
@@ -15,3 +22,7 @@ data class WorkModel(
     val status: String,
     val years: String
 )
+
+data class SnsModel(val name: String, val url: String, val img: String)
+
+data class SkillsModel(val name: String, val certification: String)

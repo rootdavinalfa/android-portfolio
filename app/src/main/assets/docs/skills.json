@@ -1,6 +1,6 @@
 [
   {
-    "name": "Android Developer",
+    "name": "Android Development",
     "certified": "Beginner Certificate from Dicoding"
   },
   {
@@ -12,7 +12,7 @@
     "certified": "None"
   },
   {
-    "name": "Backend Developer",
+    "name": "Backend Development",
     "certified": "None"
   },
   {
@@ -20,7 +20,11 @@
     "certified": "None"
   },
   {
-    "name": "Web Developer",
+    "name": "Web Development",
+    "certified": "None"
+  },
+  {
+    "name": "SQL DBMS - MYSQL & PostgreSQL",
     "certified": "None"
   }
 ]
