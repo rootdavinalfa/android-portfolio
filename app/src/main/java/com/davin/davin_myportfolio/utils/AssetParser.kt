@@ -1,3 +1,12 @@
+/*
+ * Copyright (c) 2020.
+ * Davin Alfarizky Putra Basudewa <dbasudewa@gmail.com>
+ * https://dvnlabs.xyz All right reserved
+ * My Portfolio is Personal application that show portfolio for Davin Alfarizky Putra Basudewa
+ * Class Helper for AssetParser
+ */
+
+
 package com.davin.davin_myportfolio.utils
 
 import android.content.Context
@@ -7,10 +16,12 @@ import java.nio.charset.Charset
 
 class AssetParser {
     /**
-     * Asset Parser getImageAsset
-     * @param context requester context
-     * @param filename location of file
-     * @return image byte array
+     * Asset Parser for getting Image in ByteArray,use it with your favorite ImageLoader
+     *
+     *  [context] requester context
+     *
+     *  [filename] location of file
+     *
      * */
     fun getImageAsset(context: Context, filename: String): ByteArray? {
         return try {
@@ -28,10 +39,12 @@ class AssetParser {
     }
 
     /**
-     * Asset Parser getJsonAssets
-     * @param context requester context
-     * @param filename location of file
-     * @return json string
+     * Asset Parser for getting Json String will returning jsonString
+     *
+     * [context] requester context
+     *
+     * [filename] location of file
+     *
      * */
     fun getJsonAssets(context: Context, filename: String): String? {
         val jsonString: String

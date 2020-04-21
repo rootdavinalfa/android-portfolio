@@ -37,10 +37,14 @@ open class BaseActivity : AppCompatActivity() {
     }
 
     /**
-     * changeStatusBar
-     * @param activity provide related activity
-     * @param color provide id for color
-     * @param iconLight using iconLight?
+     * Change status bar color by using following parameter
+     *
+     * [activity] Fill with requester Activity eg:MainActivity or using 'this'
+     *
+     * [color] Fill with ID
+     *
+     * [iconLight] Statement using light icon or not
+     *
      * */
     protected open fun changeStatusBar(activity: Activity, color: Int, iconLight: Boolean) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
